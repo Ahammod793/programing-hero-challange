@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.primary-btn{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+.dark-color{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px 200px;
+    align-items: center;
+    text-align: center;
+}
+nav h3{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    
+}
+ nav h4{
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: none;
+
+ }
+
+nav .resume-download{
+    color: rgb(13, 19, 33);
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+.bg-development .banner-design{
+    justify-content: center;
+    align-items: center;
+    margin: 100px 44px auto;
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position-y: center;
+}
+.bg-development .banner-design .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 652px;
+}
+.bg-development .banner-design img{
+    padding-top: 28px;
+    padding-bottom: 32px;
+}
+.bg-development .banner-design h1{
+    color: rgb(13, 19, 33);
+    width: 998px;
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.bg-development .banner-design .dream-confi{
+    width: 852px;
+    align-items: center;
+    text-align: center;
+    padding-top: 24px;
+
+}
+.bg-development .banner-design .contuct{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    padding: 21px 24px 21px 24px;
+    margin: 32px 44px auto;
+
+}
