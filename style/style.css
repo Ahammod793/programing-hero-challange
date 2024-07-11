@@ -228,10 +228,10 @@ nav .resume-download{
     align-items: center;
     justify-content: space-between;
     gap: 24px;
+    margin-bottom: 141px;
 }
 .present-activity .prog-languages .language{
     width: 284px;
-    height: 139px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -256,6 +256,24 @@ nav .resume-download{
     height: 56px;
     margin-bottom: 24px;
 }
-.present-activity .prog-languages .language .lan-det{
-
+.present-activity .prog-languages .language .mar{
+    margin-top: 8px;
+    margin-bottom:24px ;
+}
+.present-activity .prog-languages .language .learn-link{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
