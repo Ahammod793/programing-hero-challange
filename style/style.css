@@ -15,6 +15,7 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
     text-align: center;
     
 
@@ -82,11 +83,16 @@ nav h3{
 
 nav .resume-download{
     color: rgb(13, 19, 33);
-    
+    padding: 17px 24px 17px 24px;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+
 }
 .bg-development .banner-design{
     justify-content: center;
@@ -273,7 +279,90 @@ nav .resume-download{
 footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    justify-content:space-between;
     align-items: center;
+   
+}
+footer .support-box{
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    width: 1140px ;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 64px 48px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(mdahammodali793@gmail.com);
+}
+footer .support-me{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+footer .support-box .helpdesk{
+    margin: 24px auto;
+    text-align: center;
+    color:rgb(255, 255, 255)
+    
+}
+footer .support-box input[type="text"]{
+    padding: 16px 48px 16px 48px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+
+
+
+}
+footer .support-box input[type="submit"] {
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    
+}
+.input_{
+    display: flex;
+    flex-direction: row;
+    align-items: inline;
+    justify-self: center;
+    gap: 16px;
+}
+footer .com-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 526px;
+
+    margin: 24px 200px;
+}
+footer .com-option h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer .com-option ul {
+    display: flex;
+    list-style-type: none;
+    gap: 14px;
+    
+}
+
+footer .com-option ul li a img {
+    width: 36px;
+    height: 36px;
 }
