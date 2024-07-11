@@ -16,6 +16,15 @@
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+    
+
+}
+.inspiration .article .learn-more{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 16px;
+    padding: 12px 20px 12px 20px;
 }
 .dark-color{
     color: rgb(13, 19, 33);
@@ -24,7 +33,27 @@
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
+    opacity: 0.7;
     text-align: center;
+}
+.align-left{
+    align-items: flex-start;
+    text-align: left;
+}
+.common-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.dream-confidential{
+    width: 852px;
+    align-items: center;
+    text-align: center;
+    padding-top: 24px;
 }
 nav{
     display: flex;
@@ -88,13 +117,6 @@ nav .resume-download{
     letter-spacing: 0%;
     text-align: center;
 }
-.bg-development .banner-design .dream-confi{
-    width: 852px;
-    align-items: center;
-    text-align: center;
-    padding-top: 24px;
-
-}
 .bg-development .banner-design .contuct{
     border-radius: 8px;
     background: rgb(13, 19, 33);
@@ -102,4 +124,94 @@ nav .resume-download{
     padding: 21px 24px 21px 24px;
     margin: 32px 44px auto;
 
+}
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 74px 90px auto;
+    padding: 80px 97px;
+}
+.inspiration .main-causes{
+    margin-bottom: 24px;
+}
+.inspiration .replay{
+    opacity: 0.7;
+    width: 852px;
+    margin-bottom: 48px;
+}
+.inspiration .challange{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 100px;
+}
+.inspiration .second-ins{
+    display: flex;
+    flex-direction:row-reverse;
+}
+.inspiration .challange .article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:left;
+    align-items: flex-start;
+
+}
+.inspiration .challange .article .title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.common-box{
+    width: 477px;
+    gap: 16px;
+    padding: 48px;
+    margin: 10px auto;
+    justify-content: flex-start;
+    text-align: left;
+}
+.iframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.iframe p{
+    max-width: 852px !important;
+    margin: 24px  auto;
+    margin-bottom: 48px;
+    align-items: center;
+    text-align: center;
+
+}
+.iframe .iframe-container{
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    padding: 32 auto;
+}
+.iframe .iframe-container iframe{
+    border-radius: 16px;
+    width: 1075px;
+    height: 550px;
+    margin-bottom: 150px;
+}
+.present-activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 74px 90px auto;
+    
 }
