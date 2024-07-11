@@ -215,3 +215,47 @@ nav .resume-download{
     margin: 74px 90px auto;
     
 }
+.present-activity .speace{
+    max-width: 852px !important;
+    margin: 24px  auto;
+    margin-bottom: 48px;
+    align-items: center;
+    text-align: center;
+}
+.prog-languages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.present-activity .prog-languages .language{
+    width: 284px;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    padding: 40px;
+    border-radius: 16px;
+}
+.present-activity .prog-languages .html{
+    background: rgba(255, 76, 30, 0.05); 
+}
+.present-activity .prog-languages .css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.present-activity .prog-languages .js{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.present-activity .prog-languages .language img{
+    position: relative;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+.present-activity .prog-languages .language .lan-det{
+
+}
